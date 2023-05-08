@@ -1,4 +1,4 @@
-function dydt = Feedback_Model_UPDATED(t,y)
+function dydt = Feedback_Model(t,y)
 
     %state variables 
     x1 = 0;
