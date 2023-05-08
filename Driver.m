@@ -88,7 +88,7 @@ options = odeset('RelTol',1e-13);
 % % ylabel('% p-AKT S.S')
 % ylabel('S.S. p-IRS1 [ser phosphorylated] (M)')
 
-[tsim, results] = ode45(@Feedback_Model_UPDATED, tspan, initvalue, options); 
+[tsim, results] = ode45(@Feedback_Model, tspan, initvalue, options); 
 plot(tsim, results, 'LineWidth', 2); 
 % xticks([300 1740 3180]);
 % xticklabels({'Day 1', 'Day 2', 'Day 3'})
