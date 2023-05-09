@@ -2,4 +2,4 @@
 developed as part of the BME 530 class 
 
 
-simply run Driver.m file in MATLAB
+simply run Driver_x.m files to reproduce results
